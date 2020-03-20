@@ -6,7 +6,7 @@
 class EmailAddressParser
   
 def initialization(csv_emails)
-  
+  array = [csv_emails.split(",")]
 end
 
 
