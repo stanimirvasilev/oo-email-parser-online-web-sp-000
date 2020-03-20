@@ -7,12 +7,10 @@ class EmailAddressParser
   
 attr_accessor :parser
 
-def parser
-  
-array = csv_emails.split(".")
-  
-  
+def initialize(emails)
+  @emails = emails
 end
 
-
+def parser
+  @emails.split(",")
 end
