@@ -5,7 +5,7 @@
 
 class EmailAddressParser
   
-def initialization 
+def initialization(csv_emails)
   
 end
 
