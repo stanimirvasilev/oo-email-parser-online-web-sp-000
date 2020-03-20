@@ -6,12 +6,9 @@
 class EmailAddressParser
   
 attr_accessor :parser
-  
-def initialization(csv_emails)
-  array = csv_emails.split(",")
-end
 
-def parser(array)
+def parser(csv_emails)
+  
   
 end
 
