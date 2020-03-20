@@ -13,7 +13,7 @@ end
 
 def parse
   split_emails = @emails.split.collect {|address| address.split(",")}
-  split_emails.flatten.unique
+  split_emails.flatten.uniq
   
   
 end
