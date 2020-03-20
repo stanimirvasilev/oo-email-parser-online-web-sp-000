@@ -12,8 +12,8 @@ def initialize(emails)
 end
 
 def parse
-  @emails.split.collect {|address| address.split(",")}
-  
+  split_emails = @emails.split.collect {|address| address.split(",")}
+  split_emails.flatten
   
   
 end
