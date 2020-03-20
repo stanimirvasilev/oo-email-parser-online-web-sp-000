@@ -13,7 +13,7 @@ end
 
 def parse
   puts split_emails = @emails.collect {|address| address.split(",")}
-  
+  split_emails.flatten.uniq 
   
   
   
